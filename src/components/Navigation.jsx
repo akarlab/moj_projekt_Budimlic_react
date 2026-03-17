@@ -38,7 +38,7 @@ const Navigation = ({ language, setLanguage, translations }) => {
             <a href="#usluge">{t.nav_services}</a>
             <a href="#galerija">{t.nav_gallery}</a>
             <a href="#zasto-mi">{t.nav_why}</a>
-            <a href="#api-demo" style={{ color: 'var(--primary)', fontWeight: 'bold' }}>API Demo</a>
+        
             <a href="#kontakt" className="btn-primary-small">{t.nav_contact}</a>
           </div>
           <div className="language-switcher">
