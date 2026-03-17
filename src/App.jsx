@@ -9,7 +9,6 @@ import Gallery from './components/Gallery';
 import BrandBanner from './components/BrandBanner';
 import WhyUs from './components/WhyUs';
 import Footer from './components/Footer';
-import AiGenerator from './components/AiGenerator';
 import ContactModal from './components/ContactModal';
 
 function App() {
@@ -26,7 +25,6 @@ function App() {
       <Gallery language={language} translations={translations} />
       <BrandBanner language={language} translations={translations} />
       <WhyUs language={language} translations={translations} />
-      <AiGenerator language={language} translations={translations} />
       <Footer  
         language={language} 
         translations={translations} 
