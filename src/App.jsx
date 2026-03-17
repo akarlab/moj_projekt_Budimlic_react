@@ -8,6 +8,7 @@ import TargetAudience from './components/TargetAudience';
 import Gallery from './components/Gallery';
 import BrandBanner from './components/BrandBanner';
 import WhyUs from './components/WhyUs';
+import AiGenerator from './components/AiGenerator';
 import Footer from './components/Footer';
 import ContactModal from './components/ContactModal';
 
