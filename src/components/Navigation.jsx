@@ -67,7 +67,6 @@ const Navigation = ({ language, setLanguage, translations }) => {
         <a href="#usluge" onClick={closeMobileMenu}>{t.nav_services}</a>
         <a href="#galerija" onClick={closeMobileMenu}>{t.nav_gallery}</a>
         <a href="#zasto-mi" onClick={closeMobileMenu}>{t.nav_why}</a>
-        <a href="#api-demo" onClick={closeMobileMenu} style={{ color: 'var(--primary)', fontWeight: 'bold' }}>API Demo</a>
         <a href="#kontakt" onClick={closeMobileMenu}>{t.nav_contact}</a>
         <div className="mobile-language-switcher">
           {['hr', 'en', 'es', 'it', 'pt'].map((lang) => (
